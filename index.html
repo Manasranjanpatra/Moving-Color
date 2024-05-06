@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+             display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: black;
+                width: 100%;
+                height: 100vh;
+                  
+        }
+        .h1{
+            color: rgb(9, 9, 245);
+            transition: all 3s;
+            animation: colorchange 2.2s linear infinite;
+          
+        }
+        @keyframes colorchange{
+            0%{
+                color:rgb(9, 9, 245);
+                /* font-size: 2rem; */
+            }
+            20%{
+                color:rgb(52, 52, 193)
+            }
+           
+            50%{
+                color:rgb(99, 24, 74)
+            }
+            70%{
+                color:rgb(94, 11, 211)
+            }
+            90%{
+                color:rgb(15, 15, 169)
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="h1">MANAS RANJAN PATRA</h1>
+    </div>
+</body>
+</html>
